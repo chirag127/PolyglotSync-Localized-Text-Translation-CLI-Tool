@@ -1,0 +1,60 @@
+# Badges Configuration
+
+# Based on https://shields.io/
+# Format: <badge_name>: <markdown_code>
+
+# General Info
+author_profile:
+  label: "Author"
+  message: "chirag127"
+  color: "blue"
+  is_link: true
+  link: "https://github.com/chirag127"
+license:
+  label: "License"
+  message: "CC BY-NC 4.0"
+  color: "red"
+  is_link: true
+  link: "https://github.com/chirag127/PolyglotSync-Localized-Text-Translation-CLI-Tool/blob/main/LICENSE"
+
+# Build & CI
+build_status:
+  label: "Build Status"
+  message: "passing"
+  color: "brightgreen"
+  is_link: true
+  link: "https://github.com/chirag127/PolyglotSync-Localized-Text-Translation-CLI-Tool/actions/workflows/ci.yml"
+code_coverage:
+  label: "Code Coverage"
+  message: "85%"
+  color: "brightgreen"
+  is_link: true
+  link: "https://codecov.io/gh/chirag127/PolyglotSync-Localized-Text-Translation-CLI-Tool"
+
+# Tech Stack & Quality
+python_version:
+  label: "Python"
+  message: "3.10+"
+  color: "blue"
+  is_link: true
+  link: "https://www.python.org/"
+linting_quality:
+  label: "Lint/Format"
+  message: "Ruff"
+  color: "blue"
+  is_link: true
+  link: "https://github.com/charliermarsh/ruff"
+testing_quality:
+  label: "Tests"
+  message: "Pytest"
+  color: "blue"
+  is_link: true
+  link: "https://github.com/pytest-dev/pytest"
+
+# Social Proof
+github_stars:
+  label: "Stars"
+  message: "1k+"
+  color: "yellowgreen"
+  is_link: true
+  link: "https://github.com/chirag127/PolyglotSync-Localized-Text-Translation-CLI-Tool"
