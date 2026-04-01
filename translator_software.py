@@ -21,13 +21,15 @@ def speak(text):
     engine.say(text)
     engine.runAndWait()
 
+
 # wish according to the time
 def wish():
     import datetime
+
     hour = int(datetime.datetime.now().hour)
-    if hour>=0 and hour<12:
+    if hour >= 0 and hour < 12:
         speak("Good Morning")
-    elif hour>=12 and hour<18:
+    elif hour >= 12 and hour < 18:
         speak("Good Afternoon")
     else:
         speak("Good Evening")
@@ -41,13 +43,14 @@ wish()
 
 from translate import Translator
 
+
 def translate():
     translator = Translator(from_lang=lan1.get(), to_lang=lan2.get())
     translation = translator.translate(var.get())
     var1.set(translation)
 
-from tkinter import *
 
+from tkinter import *
 
 # Tkinter chiragsinghalwindow Window with title
 chiragsinghalwindow = Tk()
@@ -386,5 +389,3 @@ b = Button(mainframe, text="Translate", command=translate).grid(
 
 
 chiragsinghalwindow.mainloop()
-
-

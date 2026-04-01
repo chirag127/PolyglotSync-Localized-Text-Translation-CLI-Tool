@@ -1,8 +1,9 @@
-import pyautogui
 from time import sleep
-import pytesseract
-import keyboard
+
 import googletrans
+import keyboard
+import pyautogui
+import pytesseract
 import pyttsx3
 
 
